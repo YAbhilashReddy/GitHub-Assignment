@@ -1,0 +1,106 @@
+GIT COMMANDS AND EXPLANATIONS
+
+1. git --version
+   Displays the installed Git version.
+
+2. git config --global user.name "Your Name"
+   Configures the username used for Git commits.
+
+3. git config --global user.email "your-email@example.com"
+   Configures the email address used for Git commits.
+
+4. git config --global --list
+   Displays the configured Git settings.
+
+5. git init
+   Initializes a new Git repository in the current project folder.
+
+6. git branch -M main
+   Renames the current branch to main.
+
+7. git status
+   Displays the current repository status and modified or untracked files.
+
+8. git add .
+   Adds all new and modified files to the staging area.
+
+9. git add index.html
+   Adds the index.html file to the staging area.
+
+10. git add about.html
+    Adds the about.html file to the staging area.
+
+11. git commit -m "Initial commit - Add HTML files"
+    Creates the first commit containing the initial project files.
+
+12. git commit -m "Update home page content"
+    Records the modifications made to the home page.
+
+13. git branch feature
+    Creates a new branch named feature.
+
+14. git branch
+    Displays all local branches and identifies the current branch.
+
+15. git switch feature
+    Switches from the main branch to the feature branch.
+
+16. git commit -m "Add feature branch updates to about page"
+    Commits the changes made in the feature branch.
+
+17. git switch main
+    Switches back to the main branch.
+
+18. git merge feature
+    Merges the feature branch changes into the main branch.
+
+19. git log --oneline --graph --decorate --all
+    Displays the commit history with branches and graph representation.
+
+20. git add .gitignore
+    Adds the .gitignore file to the staging area.
+
+21. git check-ignore -v debug.log
+    Checks whether debug.log is ignored by Git and identifies the matching rule.
+
+22. git commit -m "Add gitignore for log files and temp folder"
+    Saves the .gitignore configuration in the repository history.
+
+23. git add extra.html
+    Adds the extra.html file to the staging area.
+
+24. git commit -m "Add extra page for undo demonstration"
+    Creates an additional commit to demonstrate the undo operation.
+
+25. git log --oneline -3
+    Displays the three most recent commits.
+
+26. git revert HEAD
+    Reverses the changes introduced by the latest commit by creating a new commit.
+
+27. git log --oneline -5
+    Displays the five most recent commits.
+
+28. git remote add origin YOUR-GITHUB-REPOSITORY-URL
+    Connects the local repository to the remote GitHub repository.
+
+29. git remote -v
+    Displays the configured remote repository URLs.
+
+30. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream tracking branch.
+
+31. git push -u origin feature
+    Pushes the feature branch to GitHub and sets its upstream tracking branch.
+
+32. git add git_commands.txt
+    Adds the Git command documentation file to the staging area.
+
+33. git commit -m "Add Git command documentation"
+    Commits the Git command documentation file.
+
+34. git push origin main
+    Pushes the latest main branch commits to the GitHub repository.
+
+35. git status
+    Verifies that the working directory is clean after completing the operations.
